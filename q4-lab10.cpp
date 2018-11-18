@@ -91,19 +91,19 @@ class rect
 			d.print(d);
 				
 		}
-		int side1()
+		int side1()		//function to calculate side1
 		{
 		int m = sqrt(pow((a.Get_Y()-b.Get_Y()),2));
 		return m;
 		}
 		
-		int side2()
+		int side2()		//function to calculate sside2
 		{
 		int n = sqrt(pow((b.Get_X()-c.Get_X()),2));
 		return n;
 		}
 		
-		int area()
+		int area()		//function to calculate area
 		{
 			int area = side1()*side2();
 			return area;
